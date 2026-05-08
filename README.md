@@ -42,7 +42,7 @@ password-vault-java/
 ├── Crendecial.java      → Modelo de credencial
 ├── CofreSenhas.java     → Gerenciador do cofre
 ├── GeradorSenhas.java   → Utilitário de geração
-└── DemoCofre.java       → Interface principal (main)
+└── Cofre.java       → Interface principal (main)
 
 ### Classes
 
@@ -52,7 +52,7 @@ password-vault-java/
 
 **`GeradorSenhas`** — Classe utilitária estática para geração de senhas aleatórias, PINs e senhas memoráveis.
 
-**`DemoCofre`** — Interface CLI com menu interativo de 10 opções.
+**`Cofre`** — Interface CLI com menu interativo de 10 opções.
 
 ---
 
@@ -67,7 +67,7 @@ cd password-vault-java/src
 javac v1poo/*.java
 
 # Execute
-java v1poo.DemoCofre
+java v1poo.Cofre
 ```
 
 ---
